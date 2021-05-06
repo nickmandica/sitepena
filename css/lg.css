@@ -1,0 +1,6 @@
+@media (min-width:992px) {
+	.header .blob_top { position: absolute; top: 0; right: -480px; opacity: 0.8; }
+	.header .blob_bottom { position: absolute; bottom: -737px; left: -410px; opacity: 0.8; }
+	.aboutus__left { background: url(../images/bg_left_whoweare.png) -105px 0 no-repeat #F4F4F4;}
+	.auth .p--arrow img { margin: 0 0 -20px -80px; }
+}
