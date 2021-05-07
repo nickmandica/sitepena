@@ -11,6 +11,8 @@
 	<link href="css/reset.css" rel="stylesheet" />
 	<link href="css/style.css" rel="stylesheet" />
 	<link href="css/xs.css" rel="stylesheet" />
+	<link href="css/md.css" rel="stylesheet" />
+	<link href="css/lg.css" rel="stylesheet" />
 </head>
 <body>
 	<section class="gov">
@@ -214,20 +216,15 @@
 			</div>
 		</div>
 	</footer>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
 	<script>
-		(function($){
-		    $('.nav-toggle').click(function(e){
-		        e.preventDefault();
-		        $('.nav-toggle').toggleClass('active');
-		        $('.nav-menu').toggleClass('active');
-		    })
-		    $('.nav-overlay').click(function(e){
-		        e.preventDefault();
-		        $('.nav-toggle').toggleClass('active');
-		        $('.nav-menu').toggleClass('active');
-		    })
-		})(jQuery);
+		document.querySelector(".nav-toggle").addEventListener("click", function(event) {
+			var elementtoggle = document.querySelector(".nav-toggle");
+  			elementtoggle.classList.toggle("active");
+			var elementmenu = document.querySelector(".nav-menu");
+  			elementmenu.classList.toggle("active");
+			event.preventDefault();
+		}, false);;
 	</script>
 </body>
 </html>

@@ -84,7 +84,7 @@
 	<section class="auth">
 		<div class="container">
 			<div class="row d-flex flex-row flex-wrap">
-				<div class="col-12 col-lg-5 auth__left  d-flex flex-wrap align-content-top justify-content-end justify-content-sm-center">
+				<div class="col-12 col-lg-5 auth__left  d-flex flex-wrap align-content-top justify-content-center">
 					<div class="auth__text">
 						<h3>FORGET ABOUT PASSWORDS</h3>
 						<h4>Authentication</h4>
@@ -213,7 +213,7 @@
 			</div>
 		</div>
 	</footer>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
 	<script>
 		var selfie = document.querySelector(".selfie");
 		selfie.addEventListener("mouseover", function( event ) {
@@ -230,18 +230,13 @@
 			document.querySelector(".auth__screen").src = 'images/auth_screen.png';
   		} , false);
 
-		(function($){
-		    $('.nav-toggle').click(function(e){
-		        e.preventDefault();
-		        $('.nav-toggle').toggleClass('active');
-		        $('.nav-menu').toggleClass('active');
-		    })
-		    $('.nav-overlay').click(function(e){
-		        e.preventDefault();
-		        $('.nav-toggle').toggleClass('active');
-		        $('.nav-menu').toggleClass('active');
-		    })
-		})(jQuery);
+		document.querySelector(".nav-toggle").addEventListener("click", function(event) {
+			var elementtoggle = document.querySelector(".nav-toggle");
+  			elementtoggle.classList.toggle("active");
+			var elementmenu = document.querySelector(".nav-menu");
+  			elementmenu.classList.toggle("active");
+			event.preventDefault();
+		}, false);
 	</script>
 </body>
 </html>
