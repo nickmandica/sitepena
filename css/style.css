@@ -72,7 +72,7 @@ span.icon-bar { position: absolute; right: 12px; display: block; width: 26px; he
 .button__cta.cta--login span {display: inline-block; border-radius: 0px 57px 57px 0px; padding:13px 0 13px 20px; margin-right:10px}
 .howregister .button__cta { margin-top: 30px; }
 .howregister .row--cta .button__cta { margin:30px 125px 0 0; }
-pre { background: #333333; color:#89BDFF; padding:0; tab-size:2; word-break: normal; position: relative; line-height:16px; font-size: 12px; border-radius:5px; min-width: 100px; max-width:100%;
+pre { background: #333333; color:#89BDFF; padding:0; tab-size:1; word-break: normal; position: relative; line-height:16px; font-size: 12px; border-radius:5px; min-width: 100px; max-width:100%;
 			overflow: hidden; clear:both;}
 pre code {background: 0 0; white-space: pre; display: block; max-width: 100%; min-width: 100px; font-size: 12px; padding:0;}
 code span {color:#89BDFF}
