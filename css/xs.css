@@ -27,8 +27,7 @@
 	.auth__title {font-size: 64px; line-height: 64px; margin:0; padding:55px 20px 45px 68px;}
 	.howwecollect__text {margin:0;}
 	.auth__screen--mobile {width: 425px;}
-	/*.step--odd { padding-right: 170px; padding-left: 94px; }*/
-	.step--even { padding-right: 194px; padding-left:70px; }
+	.step--odd , .step--even { padding:0 70px; }
 	.faceidscan__image { margin:30px 0 50px }
 	.faceidscan__image img {margin:-15px 0 0 -5px;}
 	.home__lastrow .howwecollect__steps { height:auto; padding-top:60px; }
