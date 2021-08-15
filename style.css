@@ -1,0 +1,106 @@
+.gov { background-color: #fff; height: 148px; }
+.menu {padding:58px 0 71px 59px}
+.nav__item.has--logo { margin-right: 66px }
+.nav__item a { font-weight: 600; font-style: normal; font-size: 18px; line-height: 19.8px; color:#fff; }
+/* NAV */
+nav.navigation { position: relative; height: 50px; z-index: 4; clear:both; }
+.nav-logo { float: left; height:31px; line-height: 31px; padding:0 41px 0  0; }
+ul.nav-menu,
+ul.nav-menu li,
+ul.nav-menu li a { float: left; }
+ul.nav-menu { padding-left: 10px; }
+ul.nav-menu li a {font-size: 18px; line-height:31px; letter-spacing: -0.05em; font-weight:600; padding: 0 15px; color: #ffffff; text-decoration: none; 
+	-webkit-transition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s; }
+ul.nav-menu li a:hover { color: #F44943; }
+.nav-toggle { display: none; position: absolute; top: 0; right: 0; width: 50px; height: 50px; cursor: pointer; }
+span.icon-bar { position: absolute; right: 12px; display: block; width: 26px; height: 2px; background-color: #ffffff; -webkit-transition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s; }
+.icon-bar:nth-child(1) { top: 17px; }
+.icon-bar:nth-child(2) { top: 24px; }
+.icon-bar:nth-child(3) { top: 31px; }
+/* ICON BARS ANIMATION */
+.nav-toggle.active .icon-bar:nth-child(1) { top: 24px; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); transform: rotate(45deg); }
+.nav-toggle.active .icon-bar:nth-child(2) { width: 0; }
+.nav-toggle.active .icon-bar:nth-child(3) { top: 24px; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); transform: rotate(-45deg); }
+.header__content {position:relative; z-index: 1;}
+.header .container {background: radial-gradient(189.44% 101.64% at 0% 0%, rgba(96, 218, 150, 0.7) 0%, rgba(111, 38, 159, 0.7) 100%), linear-gradient(0deg, #6D219E, #6D219E), #FFFFFF;
+					background-blend-mode: hard-light, normal, normal; padding-bottom:125px; position:relative;}
+.header .blob_top {position: absolute; top:0; right:-400px; opacity:0.8;}
+.header .blob_bottom { position: absolute;bottom:-750px; left:-345px; opacity:0.8; }
+.header h1 { font-weight: 600; font-size: 64px; line-height: 64px; color:#fff; letter-spacing:-2px }
+.header h2 { margin-top: 40px; font-weight: 400; font-size: 36px; line-height: 43px; letter-spacing: -1px; color: #C18BFF; }
+.header__download {margin-top:46px; }
+.header__download .dowload__btn { margin:0 11px; display: inline-block;}
+.p--arrow { margin:0 0 50px 0;}
+.p--arrow img { margin:0 0 -20px -80px; }
+.aboutus__left { background: url(../images/bg_left_whoweare.png) -50px 0 no-repeat #F4F4F4; position: relative; min-height: 900px }
+.homescreen { position: absolute; top:-110px; z-index:10; }
+.aboutus__right {background: #F4F4F4;border-radius: 0px 447px 0px 0px;}
+.aboutus__right .orb {position: absolute; width: 665px; height:799px; right:-1px; top:0; background: url(../images/ball_desktop.png) no-repeat; border-radius: 0px 447px 0px 0px; 
+	filter: drop-shadow(-106.56px -71.04px 213.12px rgba(255, 184, 0, 0.2)), drop-shadow(0px 124.32px 390.72px #F64E43);}
+.aboutus__right .gradient {background: linear-gradient(193.96deg, rgba(98, 20, 174, 0.05) 36.95%, rgba(98, 20, 174, 0) 103.78%); border-radius: 0px 447px 447px 0px;height: 799px;}
+.aboutus__right .arrow-right, .howwecollect .arrow-right { margin:0 60px 100px 40px;}
+.aboutus__text { width:336px; margin:100px 0 0 100px}       
+.aboutus__text p { margin-bottom: 40px; }
+.auth__left .arrow-right { margin:0 20px 100px 10px;}
+.auth .container, .howwecollect .container, .with--background { background:#F4F4F4; }
+.auth__text, .howwecollect__text { width:336px;}
+.auth__title {color: #D9CAE3; font-size: 96px; font-style: normal; line-height:100px; font-weight:600; letter-spacing:-7px; margin:-30px 0 0 160px;}
+.auth__title span {color: #6D219E; display: inline-block; padding:2px}
+.auth__title span:hover {color: #fff;background: linear-gradient(87.88deg, #FF5E2D 3.57%, #D2008B 96.43%), #000000; padding:2px}
+.auth_right {overflow: hidden;}
+.howwecollect__text {margin-right: 130px}
+.image--background {background: linear-gradient(0deg, rgba(98, 20, 174, 0.05), rgba(98, 20, 174, 0.05))  #F4F4F4;}
+.faceidscan__image img {margin:-35px 0 0 -1px;}
+.step--odd { padding-right: 170px; padding-left: 94px; }
+.step--even { padding-right: 94px; padding-left: 170px; }
+p.p--purple span {font-size: 14px;}
+.step--even hr, .step--odd hr { background-color: #D9CAE3; border:0; border-top:1px solid #D9CAE3; margin:20px 0; }
+.voiceprint__image { border-radius: 0 0 0 50%; position:relative; height: 628px;}
+.voiceprint__image img { position: absolute; top:-40px;left: -100px; }
+
+.topreasons .container { position:relative; z-index: 1;}
+.roundcorner--top {border-radius: 0 300px 0 0; background:#F4F4F4;}
+.roundcorner--bottom {border-radius: 0 0 0 300px; background:#F4F4F4;}
+.topreasons  h3 {margin-top: 117px;}
+.topreasons  p { color:#6D219E;}
+.topreasons hr {border-top:1px solid #A772DC;opacity: 0.9;}
+.howregister .container { background:#F4F4F4;}
+.howregister__text { width: 336px; margin: 0 100px 0 40px;}
+.button__cta {background: linear-gradient(180deg, #FF5E2C 0%, #D2008B 100%), #6D219E;border-radius:57px; padding:0 0 0 20px; color:#fff; font-weight: 500; font-size:18px; display: inline-block;}
+.button__cta.cta--normal span {display: inline-block;background: linear-gradient(180deg, #575757 0%, #222222 100%), #FF5E2C; mix-blend-mode: color-dodge; border-radius: 0px 57px 57px 0px;
+ 					padding:13px 20px 13px 10px; margin-left:10px}
+.button__cta.cta--login { padding:0 20px 0 0; }
+.button__cta.cta--login span {display: inline-block; border-radius: 0px 57px 57px 0px; padding:13px 0 13px 20px; margin-right:10px}
+.howregister .button__cta { margin-top: 30px; }
+.howregister .row--cta .button__cta { margin:30px 125px 0 0; }
+pre { background: #333333; color:#89BDFF; padding:0; tab-size:1; word-break: normal; position: relative; line-height:16px; font-size: 12px; border-radius:5px; min-width: 100px; max-width:100%;
+			overflow: hidden; clear:both;}
+pre code {background: 0 0; white-space: pre; display: block; max-width: 100%; min-width: 100px; font-size: 12px; padding:0;}
+code span {color:#89BDFF}
+code span.yellow {color:#BDB76B }
+code span.green {color:#71A830 }
+.howregister__last { margin-bottom:150px;}
+.demo .container { position:relative; z-index: 1;}
+.demo  h3 {margin-top: 100px;}
+.merchant_secret { background: #FFFFFF; border: 1px solid #D9CAE3; box-sizing: border-box; border-radius: 8px; padding:20px; margin-top:40px; }
+.merchant_secret input {background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FBFBFB; border: 1px solid #D5B9D9;color: #999999; box-sizing: border-box; border-radius: 4px; width:100%; padding: 10px 15px}
+.important {border: 1px solid #FF0000; box-sizing: border-box; border-radius: 10px; padding:10px 10px 10px 50px; margin-bottom:15px; background:url(../images/warning.png) 10px 15px no-repeat; }
+.important p { font-size: 18px; font-style: normal; font-weight: 300; line-height: 23px; letter-spacing: 0em; text-align: left; margin:0 }
+.important__heading {color: #FF0000; font-weight: 500;}
+.note {border: 1px solid #0085FF; box-sizing: border-box; border-radius: 10px; padding:10px 10px 10px 50px; margin-bottom:15px; background:url(../images/info.png) 10px 15px no-repeat; }
+.note p { font-size: 18px; font-style: normal; font-weight: 300; line-height: 23px; letter-spacing: 0em; text-align: left; margin:0 }
+.note__heading {color: #0085FF; font-weight: 500;}
+.row--last { margin-bottom: 100px; }
+footer { padding:100px 0 40px 0; }
+footer h3, footer dl p {color:#fff;}
+footer h3 {font-weight: 600px; font-size:96px; line-height: 96px; letter-spacing:-7px}
+footer dl { margin-top: 30px; }
+footer dl p {font-weight: 400;font-style:normal; font-size: 18px; line-height: 23px; padding-left:20px; margin:0;}
+.social-icons { margin-top: 30px;}
+footer dl dd { margin-bottom: 20px }
+.social-icons a { margin-bottom: 35px }
+.social-icons a:last-child,footer dl dd:last-child {margin-bottom:0;}
+footer hr {border-top:1px solid #A772DC; margin:100px 0 45px 0;opacity: 0.1;}
+.policy a { font-size: 16px; line-height: 20px; color: #DCB9FF; margin-bottom: 30px; padding:0 15px; }
+.policy p {color:#A772DC; font-size:14px; line-height: 18px; letter-spacing:0; text-align: center; margin-bottom:5px;}
+.policy p a {color:#A772DC; font-size:14px; padding:0; margin:0;}
