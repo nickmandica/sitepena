@@ -29,7 +29,7 @@ span.icon-bar { position: absolute; right: 12px; display: block; width: 26px; he
 .header h1 { font-weight: 600; font-size: 64px; line-height: 64px; color:#fff; letter-spacing:-2px }
 .header h2 { margin-top: 40px; font-weight: 400; font-size: 36px; line-height: 43px; letter-spacing: -1px; color: #C18BFF; }
 .header__download {margin-top:46px; }
-.header__download .dowload__btn { margin:0 11px; }
+.header__download .dowload__btn { margin:0 11px; display: inline-block;}
 .p--arrow { margin:0 0 50px 0;}
 .p--arrow img { margin:0 0 -20px -80px; }
 .aboutus__left { background: url(../images/bg_left_whoweare.png) -50px 0 no-repeat #F4F4F4; position: relative; min-height: 900px }
@@ -53,7 +53,8 @@ span.icon-bar { position: absolute; right: 12px; display: block; width: 26px; he
 .faceidscan__image img {margin:-35px 0 0 -1px;}
 .step--odd { padding-right: 170px; padding-left: 94px; }
 .step--even { padding-right: 94px; padding-left: 170px; }
-.howwecollect__steps hr { border-top:1px solid #D9CAE3; margin:20px 0; }
+p.p--purple span {font-size: 14px;}
+.step--even hr, .step--odd hr { background-color: #D9CAE3; border:0; border-top:1px solid #D9CAE3; margin:20px 0; }
 .voiceprint__image { border-radius: 0 0 0 50%; position:relative; height: 628px;}
 .voiceprint__image img { position: absolute; top:-40px;left: -100px; }
 
@@ -102,3 +103,4 @@ footer dl dd { margin-bottom: 20px }
 footer hr {border-top:1px solid #A772DC; margin:100px 0 45px 0;opacity: 0.1;}
 .policy a { font-size: 16px; line-height: 20px; color: #DCB9FF; margin-bottom: 30px; padding:0 15px; }
 .policy p {color:#A772DC; font-size:14px; line-height: 18px; letter-spacing:0; text-align: center; margin-bottom:5px;}
+.policy p a {color:#A772DC; font-size:14px; padding:0; margin:0;}
