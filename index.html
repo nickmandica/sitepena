@@ -36,7 +36,7 @@
 					<ul class="nav-menu">
 						<li><a href="index.html">Home</a></li>
 						<li><a href="merchants.html">Merchants</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a class="nav-menu__contact" href="javascript: scrollToContact();">Contact</a></li>
 					</ul>
 					<div class="nav-toggle">
 						<span class="icon-bar"></span>
@@ -174,7 +174,7 @@
 					<h3>Welcome <br> to the <span class="orange">future</span></h3>
 				</div>
 				<div class="col-12 col-md-3">
-					<dl>
+					<dl id="contact">
 						<dd class="d-inline-flex align-top justify-content-start">
 							<img height="24" src="images/icon_map_pin.png" alt="">
 							<p><b>D Solutions Tech SRL</b> <br>Str. Madrigalului, Nr. 58, <br> Bucuresti, Sector 1</p></dd>
@@ -212,6 +212,9 @@
 	</footer>
 	
 	<script>
+		function scrollToContact() {
+		  document.querySelector('#contact').scrollIntoView({behavior: 'smooth'});
+		}
 		var selfie = document.querySelector(".selfie");
 		selfie.addEventListener("mouseover", function( event ) {
 			document.querySelector(".auth__screen").src = 'images/auth_selfie.jpg';
