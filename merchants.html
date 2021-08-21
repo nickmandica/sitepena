@@ -228,6 +228,9 @@
 	</footer>
 	
 	<script>
+		function scrollToContact() {
+		  document.querySelector('#contact').scrollIntoView({behavior: 'smooth'});
+		}
 		document.querySelector(".nav-toggle").addEventListener("click", function(event) {
 			var elementtoggle = document.querySelector(".nav-toggle");
   			elementtoggle.classList.toggle("active");
