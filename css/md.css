@@ -5,7 +5,7 @@
 	.step--even { padding-right: 50px; padding-left: 50px; }
 	.auth__text { width: 280px; }
 	.auth .p--arrow img { margin: 0 0 -20px -40px; }
-	footer h3 { font-weight: 600px; font-size: 64px; line-height: 64px; letter-spacing: -4px; text-align: center; }
+	footer h3 { font-weight: 600px; font-size: 64px; line-height: 64px; letter-spacing: -4px; text-align: left; }
 	footer dl,
 	.social-icons { margin-top: 10px; }
 }

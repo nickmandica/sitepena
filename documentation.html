@@ -13,8 +13,9 @@
 	<link href="css/xs.css" rel="stylesheet" />
 	<link href="css/md.css" rel="stylesheet" />
 	<link href="css/lg.css" rel="stylesheet" />
+	<link href="css/prism.css" rel="stylesheet" />
 </head>
-<body>
+<body class="line-numbers">
 	<section class="gov">
 		<div class="container"> 
 			<div class="row">
@@ -62,9 +63,10 @@
 			<div class="row d-flex flex-row flex-wrap roundcorner--top">
 				<div class="col-1"></div>
 				<div class="col-10">
-					<h3>DEMO</h3>
-					<h4>Try our service</h4>
-					<p>Lorem Ipsum is simply dummy text of the printing and <br> typesetting industry. Lorem Ipsum has been the industry's <br> standard dummy text ever since the 1500s.</p>
+					<h3>MyIdentity Smart Buttons Overview</h3>
+					<p>MyIdentity Smart Buttons gives your business a simplified and secure way to accessing user’s personal information.</p>
+					<h4>Try the buttons</h4>
+					<p>Click the button below to experience a complete identification with MyIdentity:</p>
 					<div class="merchant_secret">
 						<h5>Merchant secret</h5>
 						<div class="row">
@@ -80,30 +82,56 @@
 							</form>
 							<div class="col-12 pt-3"> 
 								<h5>Customer data</h3>
-								<pre rel="JavaScript"><code class="language-javascript">
-									<span>{</span>
-										<span class="yellow">"firstName"</span><span>:</span> <span class="green">"John"</span>,
-										<span class="yellow">"lastName"</span><span>:</span> <span class="green">"Smith"</span>,
-										<span class="yellow">"isAlive"</span><span>:</span> <span class="green">true</span>,
-										<span class="yellow">"age"</span><span>:</span> <span class="green">27</span>,
-										<span class="yellow">"address"</span><span>: {</span> 
-											<span class="yellow">"streetAddress"</span>: <span class="green">"21 2nd Street"</span>, 
-											<span class="yellow">"city"</span>: <span class="green">"New York"</span>, 
-											<span class="yellow">"state"</span>: <span class="green">"NY"</span>, 
-											<span class="yellow">"postalCode"</span>: <span class="green">"10021-3100"</span> 
-											<span class="yellow">},</span>
-										<span class="yellow">"phoneNumbers"</span><span>: [ </span>
-												<span>{ </span>
-													<span class="yellow">"type"</span>: <span class="green">"home"</span>,
-													<span class="yellow">"number"</span>: <span class="green">"212 555-1234"</span>
-													}, {
-													<span class="yellow">"type"</span>: <span class="green">"office"</span>,
-													<span class="yellow">"number"</span>: <span class="green">"646 555-4567"</span>
-													} ],
-										<span class="yellow">"children"</span>: <span class="green">[]</span>,
-  										<span class="yellow">"spouse"</span>: <span class="green">null</span>
-									}
-								</code></pre>
+									<pre><code class="language-xml">
+										{
+										  "firstName": "John",
+										  "lastName": "Smith",
+										  "isAlive": true,
+										  "age": 27,
+										  "address": {
+										    "streetAddress": "21 2nd Street",
+										    "city": "New York",
+										    "state": "NY",
+										    "postalCode": "10021-3100"
+										  },
+										  "phoneNumbers": [
+										    {
+										      "type": "home",
+										      "number": "212 555-1234"
+										    },
+										    {
+										      "type": "office",
+										      "number": "646 555-4567"
+										    }
+										  ],
+										  "children": [],
+										  "spouse": null
+										}
+									</code></pre>
+									<!-- <pre rel="JavaScript"><code class="language-javascript">
+										<span>{</span>
+											<span class="yellow">"firstName"</span><span>:</span> <span class="green">"John"</span>,
+											<span class="yellow">"lastName"</span><span>:</span> <span class="green">"Smith"</span>,
+											<span class="yellow">"isAlive"</span><span>:</span> <span class="green">true</span>,
+											<span class="yellow">"age"</span><span>:</span> <span class="green">27</span>,
+											<span class="yellow">"address"</span><span>: {</span> 
+												<span class="yellow">"streetAddress"</span>: <span class="green">"21 2nd Street"</span>, 
+												<span class="yellow">"city"</span>: <span class="green">"New York"</span>, 
+												<span class="yellow">"state"</span>: <span class="green">"NY"</span>, 
+												<span class="yellow">"postalCode"</span>: <span class="green">"10021-3100"</span> 
+												<span class="yellow">},</span>
+											<span class="yellow">"phoneNumbers"</span><span>: [ </span>
+													<span>{ </span>
+														<span class="yellow">"type"</span>: <span class="green">"home"</span>,
+														<span class="yellow">"number"</span>: <span class="green">"212 555-1234"</span>
+														}, {
+														<span class="yellow">"type"</span>: <span class="green">"office"</span>,
+														<span class="yellow">"number"</span>: <span class="green">"646 555-4567"</span>
+														} ],
+											<span class="yellow">"children"</span>: <span class="green">[]</span>,
+	  										<span class="yellow">"spouse"</span>: <span class="green">null</span>
+										}
+									</code></pre> -->
 							</div>
 						</div>
 					</div>
@@ -121,16 +149,111 @@
 					<div class="row">
 						<div class="col-12 col-lg-6">
 							<h3>FOR DEVELOPERS</h3>
-							<h4>Register with our service</h4>
+							<h4>Add the buttons to your site</h4>
 							<p class="p--purple p--arrow"><img class="d-block d-sm-none" src="images/arrow_right_mobile.png" alt="">
-							<img class="d-none d-sm-block" src="images/arrow_right.png" alt="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+							<img class="d-none d-sm-block" src="images/arrow_right.png" alt="">Now that you have seen the button in action, add the button code to your site. Copy and paste this code into an HTML page and view it in your browser. You’ll use the code to start a basic integration.</p>
 						</div>
 					</div>
+					<pre><code class="language-markup">
+						&lt;script src="https://www.myidentity.bio/sdk/js?client-id=test">&lt;/script>
+						&lt;script>myidentity.Buttons().render('body');&lt;/script>
+					</code></pre>
+					<div class="note mb-5">
+						<p><span class="note__heading">Tip:</span> To log in to MyIdentity after you click the smart button, <a href="https://TODO @fox: add prod link here">create a sandbox account.</a></p>
+					</div>
+					<h3 class="h3--purple">How the buttons work</h3>
+					<p>Before you begin the integration, here’s a big-picture view of how the MyIdentity Smart Button integration works:</p>
+					<div><img class="img-fluid" src="images/diagram.png" srcset="images/diagram_2x.png 2x,images/diagram.png 1x" alt=""></div>
+					<ol>
+						<li>You add the MyIdentity Smart Button to your site’s page</li>
+						<li>Your buyer/user clicks the button</li>
+						<li>The button calls the MyIdentity identification API to request an identification session</li>
+						<li>The button launches the MyIdentity identification process</li>
+						<li>The buyer/user completes the identification process by either using the iOS or Android mobile apps</li>
+						<li>When the identification of the buyer/user is completed successfully you use the confirmation response, your private client secret and your public client id to request the user’s data from MyIdentity’s API</li>
+						<li>The process is now completed and you can show a confirmation to your buyer/user or take him to his account</li>
+					</ol>
 
-					<h3 class="h3--purple">Failed requests</h3>
-					<p>For failed requests, PayPal returns HTTP 4XX status codes if something passed in the request has an error or 5XX status codes when something is wrong on our end with a server or service.</p>
-					<p>For authentication specific HTTP 4XX status codes, see <a href="#">Authorization errors</a>.</p>
-					<h4 class="h4--grey">HTTP 4XX status codes</h4>
+					<h3 class="h3--purple">Add the Button to your site</h3>
+					<p>This integration guide helps you to:</p>
+					<ul>
+						<li>Render the MyIdentity Smart Button on your site</li>
+						<li>Set up the identification process to validate users before they can take actions on your site</li>
+						<li>Test the button and take it live</li>
+					</ul>
+					<h4 class="h4--grey">1. Set up your Sandbox Environment</h4>
+					<p>To generate REST API credentials for the sandbox and live environments:</p>
+					<ol>
+						<li>Log into the Merchant Dashboard with your MyIdentity Merchant account (or <a href="https://TODO @fox: add link to prod here">register for one here</a>)</li>
+						<li>In the dashboard make sure you’re on the “Sandbox” tab to get the API credentials you’ll use while you’re developing the integration code. After you test and before you go live, switch to the “Live” tab to get your production credentials.</li>
+						<li>Create a new secret. Store the secret value securely and do not share it or publish it anywhere. Also, once you close the popup with the secret you won’t be able to get the value going further. You are allowed to create new secrets and rotate them in case you loose your secret value.</li>
+					</ol>
+					<h4 class="h4--grey mt-5">2. Add the MyIdentity JS SDK to your site</h4>
+					<pre><code class="language-markup">
+						&lt;!DOCTYPE html>
+						&lt;head>
+						  &lt;meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Ensures optimal rendering on mobile devices. -->
+						  &lt;meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- Optimal Internet Explorer compatibility -->
+						&lt;/head>
+
+						&lt;body>
+
+						<!-- TODO @fox: when prod is live need to update the below url to be correct -->
+						  &lt;script
+						    src="https://www.myidentity.bio/sdk/js?client-id=YOUR_CLIENT_ID"> // Required. Replace YOUR_CLIENT_ID with your sandbox client ID.
+						  &lt;/script>
+						&lt;/body>
+					</code></pre>
+					<h4 class="h4--grey mt-5">3. Render the Smart Button</h4>
+					<pre><code class="language-markup">
+						&lt;body>
+						<!-- TODO @fox: when prod is live need to update the below url to be correct -->
+						  &lt;script
+						    src="https://www.myidentity.bio/sdk/js?client-id=YOUR_CLIENT_ID"> // Required. Replace YOUR_CLIENT_ID with your sandbox client ID.
+						  &lt;/script>
+
+						  &lt;div id="myidentity-button-container">&lt;/div>
+
+						  &lt;script>
+						    myidentity.Buttons().render('#myidentity-button-container');
+						    // This function displays the Identify Smart Buttons on your page.
+						  &lt;/script>
+						&lt;/body>
+					</code></pre>
+					<h4 class="h4--grey mt-5">4. Set up the identification process</h4>
+					<p>Implement the onApprove function, which is called when your buyer/user is successfully identified.</p>
+					<pre><code class="language-javascript">
+						myidentity.Buttons({
+						  onApprove: function(data) {
+						  // The data object represents a successfull identification sessions.
+						  // It does not contain any specific user details
+						  // The data object is sent to your own login api which uses the
+						  fetch('/your-own-login-url', {
+						    // other `fetch` function call configuration attributes, like method, headers, etc
+						    body: JSON.stringify(data)
+						  })
+						    .then((response) => {
+						      // Process your own successul login response
+						    })
+						    .catch((err) => {
+						      // Process your failed successul login response
+						    })
+						  }
+						}).render('#myidentity-button-container');
+					</code></pre>
+					<h4 class="h4--grey mt-5">5. Test the integration</h4>
+					<p>To test your buttons integration, complete these steps…</p>
+					<h4 class="h4--grey mt-5">6. Go live</h4>
+					<ol>
+						<li>Go to your MyIdentity dashboard</li>
+						<li>Make sure you are on the “Live” tab</li>
+						<li>Generate a new secret</li>
+						<li>Make sure to use the new client id on your production site. Make sure on your API’s production version to use the “Live” client secret assigned to the client id</li>
+						<li>Select the user fields you are interested in getting access to</li>
+						<li>Publish your production version</li>
+					</ol>
+					<!-- <p>For authentication specific HTTP 4XX status codes, see <a href="#">Authorization errors</a>.</p>
+					
 					<p>PayPal API calls return HTTP status codes. Some API calls also return JSON response bodies that include information about the resource including one or more contextual HATEOAS links. Use these links to request more information about and construct an API flow that is relative to a specific request. Each REST API request returns an HTTP status code.</p>
 					<h3 class="h3--purple">Billing Agreements API</h3>
 					<p>Use billing plans and billing agreements to create an agreement for a recurring PayPal or debit card payment for goods or services. To create an agreement, you reference an active 
@@ -144,35 +267,11 @@
 					<h3 class="h3--purple">Billing agreements</h3>
 					<p>Use the /billing-agreements resource to create, update, show details for, bill the balance for, cancel, reactivate, set the balance for, suspend, list transactions for, and execute agreements.</p>
 					<h4 class="h4--grey">Create agreement</h4>
-					<p>Creates a billing agreement. In the JSON request body, include an agreement object with the name, description, start date, ID of the plan on which to base the agreement, and customer and shipping address information.</p>
+					<p>Creates a billing agreement. In the JSON request body, include an agreement object with the name, description, start date, ID of the plan on which to base the agreement, and customer and shipping address information.</p> -->
 				</div>
 				<div class="col-1"></div>
 			</div>
-			<div class="row">
-				<div class="col-1"></div>
-				<div class="col-10">
-					<h5>MyIdentity login button</h5>
-					<pre class="margin--bottom170" rel="JavaScript">
-						<code class="language-javascript">
-						&lt;<span>script</span>&gt;
-						  <span>paypal.Buttons({</span>
-						    <span>createOrder: function(</span><span class="yellow">data</span><span>,</span> <span class="yellow">actions</span><span>) {</span>
-						      <span>// Set up the transaction</span>
-						      <span class="green">return</span><span> actions.order.create({</span>
-						        <span>purchase_units: [{</span>
-						     			<span>amount: {</span>
-						            <span class="yellow">value:</span> <span class="green">'0.01'</span>
-						          <span>}</span>
-						        <span>}]</span>
-						      <span>});</span>
-						    <span>}</span>
-						  <span>}).render(</span><span class="yellow">'#paypal-button-container'</span><span>);</span>
-						&lt;<span>/script</span>&gt;
-					</code>
-					</pre>
-				</div>
-				<div class="col-1"></div>
-			</div>
+			<div class="row bottom-spacer"></div>
 		</div>
 	</section>
 	<footer>
@@ -218,7 +317,7 @@
 			</div>
 		</div>
 	</footer>
-	
+	<script src="js/prism.js"></script>
 	<script>
 		function scrollToContact() {
 		  document.querySelector('#contact').scrollIntoView({behavior: 'smooth'});

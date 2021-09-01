@@ -91,9 +91,10 @@ code span.green {color:#71A830 }
 .note p { font-size: 18px; font-style: normal; font-weight: 300; line-height: 23px; letter-spacing: 0em; text-align: left; margin:0 }
 .note__heading {color: #0085FF; font-weight: 500;}
 .row--last { margin-bottom: 100px; }
+.bottom-spacer{ min-height: 200px; }
 footer { padding:100px 0 40px 0; }
 footer h3, footer dl p {color:#fff;}
-footer h3 {font-weight: 600px; font-size:96px; line-height: 96px; letter-spacing:-7px}
+footer h3 {font-weight: 600px; font-size:96px; line-height: 96px; letter-spacing:-7px,}
 footer dl { margin-top: 30px; }
 footer dl p {font-weight: 400;font-style:normal; font-size: 18px; line-height: 23px; padding-left:20px; margin:0;}
 .social-icons { margin-top: 30px;}
