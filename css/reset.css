@@ -54,7 +54,7 @@ a {
 /* General */
 body{font-family: 'Matter', sans-serif;font-size: 18px; font-weight:400; font-style:normal; color:#6D219E; background-color:#6214AE; overflow-x:hidden; overflow-y: visible;} 
 b, strong {font-weight: 600;}
-.orange {color: #F44943}
+.orange {color: #FF5D2E}
 .img-fluid {max-width: 100%;height: auto;}
 .text-center {text-align: center !important;}
 .text-left {text-align: left !important;}
@@ -83,13 +83,13 @@ b, strong {font-weight: 600;}
 .z999, .z-999 {z-index: 999;}
 .margin--bottom170 {margin-bottom:170px;}
 h3 { color: #B3B3B3; font-size: 14px; font-weight: 600; font-style: normal; line-height: 18px; letter-spacing: -0.02em; margin-bottom: 30px;}
-h4 { color: #F44943; font-size: 48px;  font-weight: 600; font-style: normal; line-height: 48px; letter-spacing: -0.05em; margin-bottom: 30px;}
+h4 { color: #FF5D2E; font-size: 48px;  font-weight: 600; font-style: normal; line-height: 48px; letter-spacing: -0.05em; margin-bottom: 30px;}
 h5 { font-size:12px; font-weight:500; font-style:medium; color:#808080; margin-bottom: 5px; }
 p { font-size: 24px; font-weight: 300; font-style: normal; line-height: 31px; color:#595959; margin-bottom: 35px;}
 p.p--purple {color:#6D219E;}
 h3.h3--purple {color:#6D219E; font-weight:600; font-size: 36px; line-height:46px; letter-spacing:-3px;}
 h4.h4--grey {font-size:24px; line-height:31px; font-weight:600; color:#808080; margin-bottom:5px;letter-spacing:-1px;}
-p a,ol li a, ul li a {color: #F44943;}
+p a,ol li a, ul li a {color: #FF5D2E;}
 ol { list-style:binary inside; }
 ul {list-style:disc inside;}
 ol li, ul li {font-size:18px; font-weight: 300; font-style: normal; line-height:24px; color: #595959; margin-bottom:10px; padding:0 0 0 20px;}
