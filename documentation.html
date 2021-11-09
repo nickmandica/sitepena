@@ -28,24 +28,23 @@
 	<section class="header">
 		<div class="container">
 			<div class="blob_top"><img src="images/blob_top_1920.png" alt=""></div>
-			<div class="menu">		
-				<nav class="navigation">
-			  		<div class="nav-logo has--logo">
-						<img class="d-none d-sm-block" src="images/logo_header.png" alt="">
-						<img class="d-block d-sm-none" src="images/logo_mobile.png" alt="">
-				  	</div>
-					<ul class="nav-menu">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="merchants.html">Merchants</a></li>
-						<li><a class="nav-menu__contact" href="javascript: scrollToContact();">Contact</a></li>
-					</ul>
-					<div class="nav-toggle">
-						<span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-					</div>
-				</nav>
-			</div>
+            <div class="navigation row d-flex flex-row  justify-content-between justify-content-sm-start">                
+                <div class="nav-logo has--logo">
+                    <img class="d-none d-sm-block" src="images/logo_header.png" alt="">
+                    <img class="d-block d-sm-none" src="images/logo_mobile.png" alt="">
+                </div>
+                <div class="menu d-flex flex-column text-center flex-sm-row">
+                    <a href="index.html">Home</a>
+                    <a href="merchants.html">Merchants</a>
+                    <a href="project-information.html">Project Information</a>
+                    <a class="nav-menu__contact" href="javascript: scrollToContact();">Contact</a>
+                </div>
+                <div class="nav-toggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </div>                
+            </div>
 			<div class="header__content text-center">
 				<h1>Your all in one <br> <span class="orange">unique ID</span> solution</h1>
 				<h2>Take the first step into a <br> future with Biometrics.</h2>
@@ -325,7 +324,7 @@
 		document.querySelector(".nav-toggle").addEventListener("click", function(event) {
 			var elementtoggle = document.querySelector(".nav-toggle");
   			elementtoggle.classList.toggle("active");
-			var elementmenu = document.querySelector(".nav-menu");
+			var elementmenu = document.querySelector(".menu");
   			elementmenu.classList.toggle("active");
 			event.preventDefault();
 		}, false);;
