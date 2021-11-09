@@ -63,8 +63,8 @@ ul.nav-menu li a { float: none; }
 	.header .menu,.header .nav-menu { z-index: 4; }
 	.menu { margin-right: 120px; }
 	.header .header__content { z-index: 2; }
-	.navigation {padding: 10px 0 20px}
-	.nav-logo { padding:0 10px; }
+	.navigation {padding: 10px 0 20px 0}
+	.nav-logo { padding:0 10px; height: 48px; }
 	.aboutus__right {min-height:100px; display: table;}
 	.aboutus__text { width:218px; margin:0 0 50px 70px; min-height:348.53px;}
 	.aboutus__text h3 { margin-top:75px; }
