@@ -1,24 +1,12 @@
 .gov { background-color: #fff; height: 148px; }
+/* NAV */
 .navigation { padding: 58px 0 71px 59px }
 .nav-logo { height: 31px; line-height: 31px; padding: 0 41px 0  0; }
-/*.nav__item.has--logo { margin-right: 66px }
-.nav__item a { font-weight: 600; font-style: normal; font-size: 18px; line-height: 19.8px; color: #fff; }*/
 .menu {z-index: 4;}
 .menu a { font-size: 18px; line-height: 31px; letter-spacing: -0.05em; font-weight: 600; padding: 0 15px; color: #ffffff; text-decoration: none; -webkit-transition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s; }
 .menu a:hover { color: #FF5D2E; content:"\002E";}
 .menu a.active { color: #FF5D2E;}
 .menu a.active::before { content:"\00b0"; padding:0 7px 0 0; vertical-align: middle;}
-/* NAV */
-/*nav.navigation { position: relative; height: 50px; z-index: 4; clear: both; }
-.nav-logo { float: left; height: 31px; line-height: 31px; padding: 0 41px 0  0; }
-ul.nav-menu,
-ul.nav-menu li,
-ul.nav-menu li a { float: left; }
-ul.nav-menu { padding-left: 10px; }
-ul.nav-menu li a { font-size: 18px; line-height: 31px; letter-spacing: -0.05em; font-weight: 600; padding: 0 15px; color: #ffffff; text-decoration: none; -webkit-transition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s; }
-ul.nav-menu li a:hover,
-ul.nav-menu li:hover { color: #FF5D2E; }
-ul.nav-menu li.active { color: #FF5D2E; }*/
 .nav-toggle { display: none; position: absolute; top: 0; right: 0; width: 50px; height: 50px; cursor: pointer; }
 span.icon-bar { position: absolute; right: 12px; display: block; width: 26px; height: 2px; background-color: #ffffff; -webkit-transition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s; }
 .icon-bar:nth-child(1) { top: 17px; }

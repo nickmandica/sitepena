@@ -13,9 +13,6 @@
 @media screen and (max-width:767px) {
 	.menu {display: none; height: 0; padding: 0; overflow: hidden; }
 	.menu.active { display:block; min-height:150px;}
-	/*ul.nav-menu li { width: 100%; }*/
-	/*ul.nav-menu li a { width: 100%; padding: 0; text-align: center; }
-	ul.nav-menu li a:hover { background-color: #1c1c1c; }*/
 	.nav-toggle { display: block; }
 }
 @media screen and (min-width:768px){
