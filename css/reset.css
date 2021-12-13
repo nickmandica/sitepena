@@ -92,4 +92,4 @@ h4.h4--grey {font-size:24px; line-height:31px; font-weight:600; color:#808080; m
 p a,ol li a, ul li a {color: #FF5D2E;}
 ol { list-style:binary inside; }
 ul {list-style:disc inside;}
-ol li, ul li {font-size:18px; font-weight: 300; font-style: normal; line-height:24px; color: #595959; margin-bottom:10px; padding:0 0 0 20px;}
+ol li, ul li {font-size:20px; font-weight: 300; font-style: normal; line-height:24px; color: #595959; margin-bottom:10px; padding:0 0 0 20px;}
